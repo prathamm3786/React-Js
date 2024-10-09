@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 20px;
+
+  }
+  
+  .app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 92vh;
+  }
+  
+  .todo-container {
+    background-color: white;
+    border: 2px solid #859dff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .todo-title {
+    text-align: center;
+    font-size: 24px;
+    color: #3e62f1;
+    margin-bottom: 20px;
+  }
+  
+  .add-task-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .add-btn {
+    background-color: #3e62f1;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .add-btn:hover {
+    background-color: #3959d7;
+  }
+  
+  .tasks-title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .tasks-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .task-card {
+    background-color: #e6eaff;
+    border: 1px solid #3e62f1;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  .task-card h4 {
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .task-card p {
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .task-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .task-actions button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .task-actions i {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .task-actions button:hover i {
+    color: #4caf50;
+  }
+  
+  .task-actions button:hover .fa-trash {
+    color: #f44336;
+  }
+  

@@ -1,0 +1,13 @@
+table  tr th{
+    color: #000000!important;
+    font-size: 20px;
+}
+table  tr td{
+    color: #000000!important;
+    font-size: 18px;
+}
+table{
+    border: 1px solid black!important;
+    border-radius: 10px !important;
+
+}
