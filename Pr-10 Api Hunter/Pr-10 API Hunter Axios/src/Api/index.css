@@ -1,0 +1,67 @@
+
+.card {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+.title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
+.description {
+    font-size: 0.95em;
+    color: grey;
+    margin-bottom: 25px;
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.category {
+    font-size: 0.85em;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.pro-price {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: rgb(0, 168, 0);
+}
+
+.pro-rating {
+    font-size: 0.9em;
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: #444;
+}
+.main-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
