@@ -32,13 +32,11 @@ export const View_todoList = () => {
             let todoList = collection(dataBase, 'Users');
             let gettodoList = await getDocs(todoList);
 
-            // Map through Firestore data
             const todosArray = gettodoList.docs.map((val) => ({
                 id: val.id,
                 ...val.data()
             }));
 
-            // Dispatch fetched data to Redux store
             dispatch({
                 type: 'VIEW_TODO',
                 payload: todosArray
@@ -50,17 +48,14 @@ export const View_todoList = () => {
     };
 };
 
-// Delete Todo Action
 export const Delete_todoList = (id) => {
     return async (dispatch) => {
         try {
-            // Get reference to the specific document in Firestore
             let todoDoc = doc(dataBase, 'Users', id);
 
-            // Delete document from Firestore
+
             await deleteDoc(todoDoc);
 
-            // Dispatch delete action to Redux store
             dispatch({
                 type: 'DELETE_TODO',
                 payload: id

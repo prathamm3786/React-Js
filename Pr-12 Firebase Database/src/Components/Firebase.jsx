@@ -35,7 +35,7 @@ const Firebase = () => {
     return (
         <>
             <div>
-                <h1 className="text-3xl font-bold text-center">Firebase Todolist</h1>
+              <div className="bg w-100">  <h1 className="text-3xl font-bold text-center">Firebase Todolist</h1></div>
                 <div>
                     <form onSubmit={handleData}>
                         <input
