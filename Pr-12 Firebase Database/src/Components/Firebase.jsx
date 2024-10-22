@@ -40,9 +40,9 @@ const Firebase = () => {
                     <form onSubmit={handleData}>
                         <input
                             type="text"
-                            placeholder="Add your Todolist"
+                            placeholder="Add your Todo"
                             onChange={(e) => setTodoList(e.target.value)}
-                            value={todoList} 
+                            value={todoList || " "} 
                         />
                         <button type="submit" className="btn">Submit</button>
                     </form>

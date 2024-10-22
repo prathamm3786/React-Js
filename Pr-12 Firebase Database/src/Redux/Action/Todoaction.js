@@ -3,16 +3,13 @@ import { app } from "../../../firebase";
 
 const dataBase = getFirestore(app);
 
-// Add Todo Action
 export const Add_todoList = (todo) => {
     return async (dispatch) => {
         try {
-            // Add new todo to Firestore
             await addDoc(collection(dataBase, 'Users'), {
-                todo: todo.todoList  // Make sure todoList is passed correctly
+                todo: todo.todoList 
             });
 
-            // Dispatch action to Redux store
             dispatch({
                 type: 'ADD_TODO',
                 payload: todo
@@ -24,11 +21,9 @@ export const Add_todoList = (todo) => {
     };
 };
 
-// View Todo List Action
 export const View_todoList = () => {
     return async (dispatch) => {
         try {
-            // Reference to 'Users' collection
             let todoList = collection(dataBase, 'Users');
             let gettodoList = await getDocs(todoList);
 
@@ -41,7 +36,7 @@ export const View_todoList = () => {
                 type: 'VIEW_TODO',
                 payload: todosArray
             });
-        } catch (error) {
+        // } catch (error) {
             console.log(error);
             return false;
         }

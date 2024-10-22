@@ -1,5 +1,3 @@
-import { collection, getDocs, getFirestore } from "firebase/firestore";
-import { app } from "../../../firebase";
 
 let initialState = {
     todoList: [],
@@ -16,32 +14,13 @@ const Todoreducer = (state = initialState, action) => {
             };
 
         case 'VIEW_TODO':
-
-            const getUser = async() => {
-                   try{
-                    const db = getFirestore(app)
-                    const data = collection(db, "Users")
-                    const users = await getDocs(data);
-                    const record = users.docs.map(doc => ({
-                        id: doc.id,
-                        ...doc.data(),
-                    }))
-                    return await  record
-                   }catch(err){
-                        console.log(err);
-                        return false;
-                        
-                   }
-        
-        
-            }
             
             
 
             return {
                 ...state,
-                todoList: getUser(),
-                err: null
+                todoList: action.payload,
+                
             };
 
         case 'DELETE_TODO':
