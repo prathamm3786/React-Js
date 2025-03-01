@@ -1,0 +1,15 @@
+
+nav ul li a{
+    font-size: 15px!important;
+    color: black!important;
+    font-family: "poppins";
+}
+
+nav .bars{
+    width: 35px;
+    height: 35px;
+    border: 1px solid rgba(0, 0, 0, 0.33);
+    padding: 7px;
+    text-align: center;
+    line-height: 20px;
+}

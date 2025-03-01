@@ -1,0 +1,56 @@
+.row{
+    border-bottom: 1px solid #b7b5b5; 
+    padding: 5px 0;
+}
+
+ form input{
+    width: 400px;
+    height: 45px;
+    padding-left: 15px;
+    border: 1px solid #64b496;
+    outline: none;
+    border-radius: 0;
+
+}
+nav{
+    margin-bottom: 10px;
+
+}
+
+form select{
+    width: 135px;
+    text-align: center;
+    right: 45px;
+    font-size: 15px;
+    border: 1px solid #64b496;
+    border-radius: 0;
+    outline: none;
+    border-left: none;
+    padding: 5px;
+}
+
+form button{
+    width: 60px!important;
+    background-color: #64b496;  
+    border-radius: 0!important;
+    font-size: 15px!important;
+}
+
+.logo{
+    margin-right: 20px;
+}
+.logo .logo-png span{
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+.logo-png{
+    margin: 5px 0;
+    padding: 5px 0;
+}
+
+.logo .logo-png h5{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 0 0 0;
+}

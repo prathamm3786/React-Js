@@ -1,0 +1,82 @@
+.footer {
+    padding: 100px 0;
+    border-top: 1px solid #e9e9e9;
+    background-color: #f7f7f8;
+}
+
+.footer-logo p {
+    color: #7a7a7a;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer-logo img {
+    margin-bottom: 15px;
+}
+
+.footer-content h5 {
+    font-size: 15px;
+    color: #777;
+    margin: 20px 0;
+}
+
+.footer-compny ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-compny h4 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-compny ul li span {
+    font-size: 16px;
+    color: #777;
+    cursor: pointer;
+}
+
+.footer-compny ul li span:hover {
+    color: #20c997;
+    transition: all 0.3s;
+}
+
+.footer-compny ul li {
+    margin-bottom: 13px;
+
+}
+
+.Subscribe {
+    position: relative;
+}
+
+.Subscribe .arrow {
+    position: absolute;
+    content: '';
+    top: 57px;
+    right: 20px;
+}
+
+.Subscribe .icon p {
+    border-radius: 5px;
+    border: 1px solid #777;
+    padding: 5px 10px;
+}
+
+.Subscribe img {
+    width: 55px !important;
+    height: 20%;
+    margin-right: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.Subscribe h3 {
+    margin-bottom: 20px;
+}
+
+input {
+    outline: none !important;
+}

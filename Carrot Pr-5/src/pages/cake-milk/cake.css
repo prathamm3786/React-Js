@@ -1,0 +1,73 @@
+
+.cake .box {
+    width: 100%;
+    background-color: #f7f7f8;
+    text-align: center;
+    margin: 5px;
+    padding: 9px;
+    border-radius: 3px;
+    border: 1px solid #d2d2d491;
+}
+
+.cake .box:nth-last-child(1) {
+    color: #64b496;
+}
+
+.cake .box:nth-last-child(6) {
+    color: #64b496;
+}
+.hart-cake {
+    background-image: url('src/img/3.jpg');
+    height: 525px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 40px;
+    margin-top: 5px;
+    color: white;
+    border-radius: 5px;
+}
+
+.milk {
+    background-image: url('src/img/4.jpg');
+    height: 525px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 40px;
+    margin-top: 5px;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.hart-cake h2,
+.milk h2 {
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.hart-cake h5,
+.milk h5 {
+    text-align: center;
+    margin-top: 340px;
+    font-size: 30px;
+    margin-right: 10px;
+    margin-bottom:15;
+}
+
+.hart-cake button,
+.milk button {
+    display: block;
+    margin: 0 auto;
+    height: 40px;
+    padding: 8px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #64b496;
+    color: white;
+}
+.hart-cake button:hover,.milk button:hover{
+    background-color: #000;
+    border: 1px solid #fff;
+    transition: all 0.5s;
+}

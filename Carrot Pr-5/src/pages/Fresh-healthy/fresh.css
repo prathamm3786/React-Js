@@ -1,0 +1,53 @@
+.fresh-img img{
+    width: 100%!important;
+    border-radius: 5px;
+}
+.fresh-img {
+    position: relative;
+}
+
+.fresh-content{
+    position: absolute;
+    top: 0;
+    padding: 20px;
+    margin-top: 30px;
+}
+.fresh-content h5{
+    margin-bottom: 15px;
+    font-family: "poppins";
+    font-size: 21px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #2b2b2d;
+}
+
+.fresh-content p span{
+    margin-right: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #64b496;
+}
+
+.fresh-content p .first{
+    font-family: "Poppins";
+    font-size: 15px;
+    color: #777;
+}
+
+.fresh-content button {
+    margin-top: 15px;
+    display: block;
+    height: 40px;
+    padding: 8px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #64b496;
+    color: white;
+}
+
+.fresh-content button:hover{
+    background-color: #000000bd;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: all 0.5s;
+}
